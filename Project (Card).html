@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1 (CARD)</title>
+  <style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: gray;
+    padding: 30px;
+    display: flex;
+  }
+  .card{
+    background-color: white;
+    width: 50vw;
+    border-radius: 5px;
+    padding: 0 0 15px 0;
+    margin: 4px;
+    overflow: hidden;
+  }
+  .image{
+    padding: 5px;
+    object-fit: cover;
+  }
+  .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+  }
+  .capsule{
+    padding: 8px 15px;
+    font-family: 'Poppins',sans-serif;
+  }
+  .capsule span{
+    border: 1px solid gray;
+    padding: 6px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-family: 'Baloo Bhai 2', san-serif;
+  }
+  .content{
+    margin: 10px;
+    text-align: left;
+  }
+  .content p,h2{
+    margin: 5px;
+  }
+  h2{
+    color: rgb(123 45 67);
+  }
+  .button{
+    text-align: center;
+  }
+  .button button{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(216 236 253);
+    color: rgb(14 150 234);
+    font-size: 10px;
+    margin-top: 12px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .button button:hover{
+    background-color: rgb(194, 225, 246);
+    color: rgb(10, 136, 214);
+  }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="image">
+      <img src="night.jpeg">
+    </div>
+    <div class="capsule">
+      <span>Night</span>
+      &nbsp;&nbsp;
+      <span>Nature</span>
+    </div>
+    <div class="content">
+      <h2>Beautiful Night</h2>
+      <p>The night should be the most peaceful period of the day , everything stays still. A moonlit night is a night when the moon is full. These nights are very bright and pretty. The moon looks like a shiny silver disk. All creature these kinds of beautiful nights.</p>
+    </div>
+    <div class="button">
+      <button>Read More</button>
+    </div>
+  </div>
+</body>
+</html>
